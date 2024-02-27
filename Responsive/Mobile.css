@@ -3,6 +3,19 @@
   body {
     overflow-x: hidden;
   }
+  .rah-phone{
+    display: block !important;
+    margin-top: 30px;
+  }
+  .rah-phone h1{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #173e88;
+
+  }
+  .rah-pc{
+    display: none !important;
+  }
   .rah_dashboard {
     height: auto !important;
     width: 100% !important;
@@ -13,9 +26,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    padding: 40px 8px 20px !important;
+    padding: 40px 0px 20px !important;
+    box-sizing: border-box;
   }
   .rah_left-part {
+    max-width: none !important;
     width: 100% !important;
     margin-left: auto;
     margin-right: auto;
@@ -28,11 +43,19 @@
     color: #173e88;
     text-align: center;
   }
+  .rah_stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .rah_stats h2 {
     text-align: center;
   }
+
   .rah_my-order {
-    width: 320px;
+    max-width: 370px;
+    width: 100% !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -44,6 +67,7 @@
     height: auto !important;
     border-radius: 12px;
     background-color: #e1f3ff;
+    margin: 0 8px;
   }
   .rah_right-part h1 {
     font-family: "Inter", sans-serif;
@@ -56,13 +80,10 @@
     width: auto !important;
     height: auto !important;
     padding: 28px 5px;
-    flex-direction: column !important;
-    row-gap: 28px;
-    justify-content: space-around;
     align-items: center;
   }
   .rah_guarantee {
-    width: 310px;
+    max-width: 310px;
     height: 150px;
     text-align: center;
     border-radius: 15px;
@@ -81,8 +102,6 @@
   .rah_guarantee h3 {
     font-size: 28px;
     font-weight: 700;
-    margin-top: 45px;
-    margin-bottom: 10px;
   }
   .rah_about-ad {
     width: 100% !important;
