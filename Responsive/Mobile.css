@@ -43,6 +43,10 @@
     color: #173e88;
     text-align: center;
   }
+  .rah_intro p {
+    font-size: 12px !important;
+    text-align: center !important;
+}
   .rah_stats{
     display: flex;
     flex-direction: column;
