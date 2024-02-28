@@ -52,10 +52,31 @@
   .rah_stats h2 {
     text-align: center;
   }
-
+  .rah_enrolled-certigicate {
+    min-width: 290px !important;
+}
+  .rah_ellipse {
+    background-size: contain !important;
+    width: 30% !important;
+    height: 103.822px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rah_ellipse-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cde3f1;
+  width: 68% !important;
+  height: 47% !important;
+  border-radius: 60px;
+}
+.rah_e-i-text {
+  font-size: 12px !important;
+}
   .rah_my-order {
     max-width: 370px;
-    width: 100% !important;
+    width: 98% !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -63,11 +84,11 @@
     margin-right: 5px !important;
   }
   .rah_right-part {
-    width: 100% !important; 
+    width: 98% !important; 
     height: auto !important;
     border-radius: 12px;
     background-color: #e1f3ff;
-    margin: 0 8px;
+    margin: 0 auto;
   }
   .rah_right-part h1 {
     font-family: "Inter", sans-serif;
@@ -118,6 +139,10 @@
     width: 85% !important;
     margin-right: auto;
     margin-left: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .rah_identity {
     grid-column: 1 / 2 !important;
