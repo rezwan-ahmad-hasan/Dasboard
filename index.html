@@ -298,6 +298,9 @@
         font-family: "Inter", sans-serif;
         padding: 30px 24px;
         box-shadow: 0px 0px 50px 0px rgba(23, 62, 136, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
       .rah_identity {
         grid-column: 10 / 16;
@@ -339,8 +342,26 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 28px;
       }
+      .rah_profile-btnss {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .rah_profile-btnss > input{
+        border: 1px solid #16A5E1;
+        background-color: transparent;
+        border-radius: 3px;
+        color: #16A5E1;
+        font-size: 9px;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+        padding: 6px 12px;
+        cursor: pointer;
+      }
+
       .rah_profile-flex-edit {
         display: flex;
         justify-content: space-between;
@@ -800,6 +821,11 @@
                 placeholder="+190264876"
               />
             </div>
+            <div class="rah_profile-btnss">
+              <input type="submit" value="Deactivate Your Account">
+              <input type="submit" value="Delete Your Account">
+            </div>
+
           </div>
           <div class="rah_identity">
             <h3>Student ID</h3>
